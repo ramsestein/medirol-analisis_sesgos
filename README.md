@@ -381,19 +381,3 @@ Respecto a OP1, gpt-5.4-mini muestra una tasa de fuga aproximadamente la mitad d
 La metodología de sondeo adversarial sobre casos controvertidos aquí descrita es reproducible y extensible, y se propone como estándar mínimo en la evaluación de simuladores clínicos basados en LLM antes de su despliegue en entornos formativos.
 
 ---
-
-## Declaraciones
-
-**Contribución de los autores.** [Pendiente de completar por el equipo investigador.]
-
-**Conflictos de interés.** [Pendiente.]
-
-**Financiación.** [Pendiente.]
-
-**Aprobación ética.** Dado que el estudio no involucra participantes humanos ni datos clínicos reales — las interacciones analizadas son exclusivamente entre el evaluador automatizado y los modelos de lenguaje — no se requirió aprobación del Comité de Ética de la Investigación con medicamentos (CEIm). Los casos clínicos utilizados son ficticios y fueron construidos específicamente para el estudio.
-
-**Disponibilidad de datos y código.** [Pendiente de definir repositorio.]
-
----
-
-*Manuscrito preparado para envío a revista de educación médica.*
