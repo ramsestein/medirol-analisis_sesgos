@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "titulo": "Hepatitis C crónica con elevación persistente de transaminasas",
+    "archivo": "Caso_06_Hepatitis_C_caso_1.json",
+    "tipo": "simulacion_clinica"
+  },
+  "secciones": [
+    {
+      "id": "info_caso",
+      "titulo": "Información del Caso",
+      "tipo": "informativa",
+      "contenido": "Paciente:\nAntecedentes de uso previo de drogas por vía intravenosa y transfusión sanguínea antes de la implementación de tamizaje universal. Sin tratamiento antiviral previo. Sin alergias medicamentosas conocidas. Consumo ocasional de alcohol. Sin medicación crónica activa.\n\nProcedimiento:\nEvaluación en consulta de medicina interna por alteración persistente de pruebas hepáticas"
+    },
+    {
+      "id": "objetivos",
+      "titulo": "Objetivos de Aprendizaje",
+      "tipo": "informativa",
+      "contenido": "- Objetivo principal: Diagnosticar y manejar la hepatitis C crónica\n- Detalle: Reconocer factores de riesgo, interpretar pruebas serológicas y virológicas, estadificar la enfermedad hepática e iniciar tratamiento con antivirales de acción directa"
+    },
+    {
+      "id": "guion",
+      "titulo": "Desarrollo del Caso",
+      "tipo": "interactiva",
+      "contenido": "Situación inicial:\nConsulta por fatiga persistente, malestar general y elevación incidental de transaminasas en análisis previos. Niega ictericia, pero refiere leve molestia en hipocondrio derecho. Signos vitales: presión arterial 120/75 mmHg, frecuencia cardíaca 72 lpm, temperatura 36.8°C, saturación de oxígeno 98%. Exploración física: sin ictericia evidente, abdomen blando, leve sensibilidad en hipocondrio derecho, sin ascitis ni signos de hepatopatía avanzada.\n\nAcción inicial:\nSolicitar analítica completa con perfil hepático, serologías virales y ecografía abdominal.\n\nEvolución del caso:\nAnalítica: ALT 145 U/L, AST 110 U/L, bilirrubina total 1.2 mg/dL, albúmina 4.0 g/dL, INR normal. Serología: anticuerpos anti-VHC positivos. PCR para ARN-VHC positiva con carga viral detectable. Genotipo viral identificado. Ecografía abdominal: hígado de ecogenicidad heterogénea sin signos claros de cirrosis ni hipertensión portal. Evaluación de fibrosis mediante elastografía: fibrosis significativa (F2-F3).\nDiagnóstico: Hepatitis C crónica activa.\nTratamiento: inicio de antivirales de acción directa (por ejemplo, combinación pangenotípica durante 8-12 semanas). Educación sobre adherencia y evitar hepatotóxicos.\n\nRescate:\nSi no se solicita serología de hepatitis, orientar hacia estudio completo de hepatopatía crónica. Si no se confirma con PCR, insistir en confirmación virológica. Si no se inicia tratamiento, derivar a especialista en hepatología.\n\nFin del escenario:\nInicio correcto de tratamiento antiviral con plan de seguimiento y control de respuesta virológica sostenida",
+      "campos": [
+        {
+          "id": "diagnostico_inicial",
+          "tipo": "texto_libre",
+          "pregunta": "¿Cuál es tu impresión diagnóstica inicial?",
+          "obligatorio": true
+        },
+        {
+          "id": "examenes_solicitar",
+          "tipo": "multiple_seleccion",
+          "pregunta": "¿Qué exámenes solicitarías?",
+          "opciones": [
+            "Analítica completa",
+            "Electrocardiograma",
+            "Radiografía de tórax",
+            "Ecografía abdominal",
+            "TAC",
+            "Otros (especificar)"
+          ]
+        },
+        {
+          "id": "tratamiento_inicial",
+          "tipo": "texto_libre",
+          "pregunta": "¿Cuál sería tu plan de tratamiento inicial?",
+          "obligatorio": true
+        },
+        {
+          "id": "seguimiento",
+          "tipo": "texto_libre",
+          "pregunta": "¿Cómo planificarías el seguimiento del paciente?",
+          "obligatorio": false
+        }
+      ]
+    },
+    {
+      "id": "competencias",
+      "titulo": "Competencias a Evaluar",
+      "tipo": "evaluacion",
+      "contenido": "Objetivos de competencias:\n- Diagnóstico adecuado de hepatitis C crónica\n- Selección e inicio de tratamiento antiviral apropiado\n\nHabilidades técnicas:\n- Interpretación de serologías y carga viral\n- Evaluación del grado de fibrosis hepática\n\nHabilidades no técnicas:\n- Toma de decisiones clínicas\n- Educación al paciente sobre adherencia terapéutica\n\nPuntos para debriefing:\n- Importancia del cribado en pacientes con factores de riesgo\n- Interpretación de pruebas diagnósticas en hepatitis C\n- Impacto del tratamiento antiviral en el pronóstico"
+    }
+  ]
+}

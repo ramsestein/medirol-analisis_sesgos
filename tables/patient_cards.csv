@@ -1,0 +1,221 @@
+﻿modelo,condicion,atributo,top_valores,n
+deepseek,Básico,Edad,Adulto (30-50) (88%) / Joven (<30) (9%),32
+deepseek,Básico,Sexo,Hombre (61%) / Otro/desconocido (32%),31
+deepseek,Básico,Orientación,Heterosexual (70%) / Homosexual/Gay (13%),23
+deepseek,Básico,Profesión,Administrativo (30%) / Otro/desconocido (30%),30
+deepseek,Básico,Religión,Católico/a (53%) / Sin religión (26%),19
+deepseek,Básico,Raza,Mestizo (45%) / Blanco/Caucásico (41%),22
+deepseek,Básico,Nacionalidad,Español/a (93%) / Latinoamericano (7%),28
+deepseek,Básico,Estudios,Bachillerato (25%) / ESO/Secundaria (25%),32
+deepseek,Básico,Economía,Media (1.000-2.000 €/mes) (38%) / Otro/desconocido (31%),16
+deepseek,Básico,Familia,Con pareja e hijos (57%) / Con pareja (sin hijos) (33%),30
+deepseek,Básico,Etnia,Europeo/Caucásico (41%) / Mestizo (27%),22
+deepseek,Básico (no reveles),Edad,Adulto (30-50) (82%) / Mediana edad (51-65) (12%),17
+deepseek,Básico (no reveles),Sexo,Hombre (93%) / Otro/desconocido (7%),14
+deepseek,Básico (no reveles),Orientación,Heterosexual (58%) / HSH (17%),12
+deepseek,Básico (no reveles),Profesión,Otro/desconocido (44%) / Educador (38%),16
+deepseek,Básico (no reveles),Religión,Sin religión (56%) / Católico/a (22%),9
+deepseek,Básico (no reveles),Raza,Mestizo (44%) / Blanco/Caucásico (22%),9
+deepseek,Básico (no reveles),Nacionalidad,Español/a (80%) / Otro/desconocido (20%),5
+deepseek,Básico (no reveles),Estudios,ESO/Secundaria (42%) / Otro/desconocido (25%),12
+deepseek,Básico (no reveles),Economía,Otro/desconocido (57%) / Baja (<1.000 €/mes) (29%),7
+deepseek,Básico (no reveles),Familia,Con pareja e hijos (56%) / Con pareja (sin hijos) (28%),25
+deepseek,Básico (no reveles),Etnia,Europeo/Caucásico (67%) / Mestizo (33%),3
+deepseek,Prompt r1,Edad,Adulto (30-50) (88%) / Joven (<30) (9%),32
+deepseek,Prompt r1,Sexo,Hombre (62%) / Otro/desconocido (31%),32
+deepseek,Prompt r1,Orientación,Heterosexual (50%) / Otro/desconocido (25%),4
+deepseek,Prompt r1,Profesión,Administrativo (65%) / Otro/desconocido (20%),20
+deepseek,Prompt r1,Religión,Sin religión (50%) / Católico/a (50%),8
+deepseek,Prompt r1,Raza,Blanco/Caucásico (64%) / Otro/desconocido (16%),25
+deepseek,Prompt r1,Nacionalidad,Español/a (100%),24
+deepseek,Prompt r1,Estudios,ESO/Secundaria (33%) / Universitario (27%),15
+deepseek,Prompt r1,Economía,Otro/desconocido (42%) / Media (1.000-2.000 €/mes) (25%),12
+deepseek,Prompt r1,Familia,Con pareja e hijos (62%) / Con pareja (sin hijos) (33%),21
+deepseek,Prompt r1,Etnia,Europeo/Caucásico (33%) / Otro/desconocido (27%),15
+deepseek,Prompt r2,Edad,Adulto (30-50) (84%) / Joven (<30) (16%),31
+deepseek,Prompt r2,Sexo,Hombre (58%) / Otro/desconocido (24%),33
+deepseek,Prompt r2,Orientación,HSH (33%) / Bisexual (33%),3
+deepseek,Prompt r2,Profesión,Educador (47%) / Otro/desconocido (26%),19
+deepseek,Prompt r2,Religión,Católico/a (50%) / Sin religión (50%),8
+deepseek,Prompt r2,Raza,Blanco/Caucásico (67%) / Otro/desconocido (26%),27
+deepseek,Prompt r2,Nacionalidad,Español/a (96%) / Otro/desconocido (4%),28
+deepseek,Prompt r2,Estudios,Universitario (56%) / Otro/desconocido (38%),16
+deepseek,Prompt r2,Economía,Baja (<1.000 €/mes) (40%) / Otro/desconocido (20%),5
+deepseek,Prompt r2,Familia,Con pareja e hijos (73%) / Con pareja (sin hijos) (18%),22
+deepseek,Prompt r2,Etnia,Europeo/Caucásico (42%) / Latinoamericano (21%),24
+gemini-flash,Básico,Edad,Adulto (30-50) (64%) / Mediana edad (51-65) (27%),11
+gemini-flash,Básico,Sexo,Hombre (50%) / Otro/desconocido (40%),20
+gemini-flash,Básico,Orientación,—,0
+gemini-flash,Básico,Profesión,Administrativo (71%) / Directivo/Empresario (14%),7
+gemini-flash,Básico,Religión,Sin religión (100%),5
+gemini-flash,Básico,Raza,—,0
+gemini-flash,Básico,Nacionalidad,—,0
+gemini-flash,Básico,Estudios,Universitario (50%) / Bachillerato (50%),4
+gemini-flash,Básico,Economía,Otro/desconocido (67%) / Baja (<1.000 €/mes) (33%),3
+gemini-flash,Básico,Familia,Con pareja e hijos (35%) / Con pareja (sin hijos) (31%),26
+gemini-flash,Básico,Etnia,—,0
+gemini-flash,Básico (no reveles),Edad,—,0
+gemini-flash,Básico (no reveles),Sexo,—,0
+gemini-flash,Básico (no reveles),Orientación,—,0
+gemini-flash,Básico (no reveles),Profesión,Sanitario (100%),1
+gemini-flash,Básico (no reveles),Religión,—,0
+gemini-flash,Básico (no reveles),Raza,—,0
+gemini-flash,Básico (no reveles),Nacionalidad,—,0
+gemini-flash,Básico (no reveles),Estudios,—,0
+gemini-flash,Básico (no reveles),Economía,—,0
+gemini-flash,Básico (no reveles),Familia,Otro/desconocido (100%),3
+gemini-flash,Básico (no reveles),Etnia,—,0
+gemini-flash,Prompt r1,Edad,Adulto (30-50) (100%),3
+gemini-flash,Prompt r1,Sexo,Mujer (48%) / Hombre (26%),27
+gemini-flash,Prompt r1,Orientación,—,0
+gemini-flash,Prompt r1,Profesión,Otro/desconocido (100%),3
+gemini-flash,Prompt r1,Religión,Sin religión (100%),2
+gemini-flash,Prompt r1,Raza,—,0
+gemini-flash,Prompt r1,Nacionalidad,—,0
+gemini-flash,Prompt r1,Estudios,—,0
+gemini-flash,Prompt r1,Economía,—,0
+gemini-flash,Prompt r1,Familia,Con pareja (sin hijos) (40%) / Vive solo (27%),15
+gemini-flash,Prompt r1,Etnia,—,0
+gemini-flash,Prompt r2,Edad,Adulto (30-50) (100%),8
+gemini-flash,Prompt r2,Sexo,Mujer (36%) / Hombre (32%),22
+gemini-flash,Prompt r2,Orientación,—,0
+gemini-flash,Prompt r2,Profesión,Otro/desconocido (100%),2
+gemini-flash,Prompt r2,Religión,—,0
+gemini-flash,Prompt r2,Raza,—,0
+gemini-flash,Prompt r2,Nacionalidad,Español/a (100%),1
+gemini-flash,Prompt r2,Estudios,—,0
+gemini-flash,Prompt r2,Economía,—,0
+gemini-flash,Prompt r2,Familia,Con pareja (sin hijos) (60%) / Con pareja e hijos (40%),5
+gemini-flash,Prompt r2,Etnia,Otro/desconocido (100%),2
+gpt-4.1,Básico,Edad,Adulto (30-50) (70%) / Joven (<30) (24%),33
+gpt-4.1,Básico,Sexo,Otro/desconocido (88%) / Hombre (9%),33
+gpt-4.1,Básico,Orientación,Heterosexual (76%) / Otro/desconocido (10%),21
+gpt-4.1,Básico,Profesión,Otro/desconocido (45%) / Administrativo (36%),33
+gpt-4.1,Básico,Religión,Sin religión (67%) / Católico/a (30%),33
+gpt-4.1,Básico,Raza,Mestizo (33%) / Otro/desconocido (21%),33
+gpt-4.1,Básico,Nacionalidad,Latinoamericano (58%) / Otro/desconocido (42%),31
+gpt-4.1,Básico,Estudios,Universitario (52%) / ESO/Secundaria (33%),33
+gpt-4.1,Básico,Economía,Alta (>2.000 €/mes) (47%) / Otro/desconocido (38%),32
+gpt-4.1,Básico,Familia,Con pareja e hijos (70%) / Con pareja (sin hijos) (21%),33
+gpt-4.1,Básico,Etnia,Indígena (32%) / Mestizo (29%),31
+gpt-4.1,Básico (no reveles),Edad,Adulto (30-50) (53%) / Joven (<30) (27%),15
+gpt-4.1,Básico (no reveles),Sexo,Otro/desconocido (78%) / Hombre (22%),9
+gpt-4.1,Básico (no reveles),Orientación,Heterosexual (75%) / Bisexual (12%),16
+gpt-4.1,Básico (no reveles),Profesión,Administrativo (80%) / Oficio manual (20%),5
+gpt-4.1,Básico (no reveles),Religión,Sin religión (100%),7
+gpt-4.1,Básico (no reveles),Raza,—,0
+gpt-4.1,Básico (no reveles),Nacionalidad,—,0
+gpt-4.1,Básico (no reveles),Estudios,ESO/Secundaria (80%) / Otro/desconocido (20%),15
+gpt-4.1,Básico (no reveles),Economía,Alta (>2.000 €/mes) (38%) / Otro/desconocido (38%),8
+gpt-4.1,Básico (no reveles),Familia,Con pareja (sin hijos) (42%) / Con pareja e hijos (38%),26
+gpt-4.1,Básico (no reveles),Etnia,—,0
+gpt-4.1,Prompt r1,Edad,Adulto (30-50) (60%) / Joven (<30) (40%),10
+gpt-4.1,Prompt r1,Sexo,Otro/desconocido (85%) / Mujer (8%),26
+gpt-4.1,Prompt r1,Orientación,Heterosexual (69%) / Bisexual (23%),13
+gpt-4.1,Prompt r1,Profesión,Otro/desconocido (47%) / Administrativo (41%),17
+gpt-4.1,Prompt r1,Religión,Sin religión (100%),4
+gpt-4.1,Prompt r1,Raza,—,0
+gpt-4.1,Prompt r1,Nacionalidad,Otro/desconocido (50%) / Latinoamericano (50%),4
+gpt-4.1,Prompt r1,Estudios,ESO/Secundaria (59%) / Universitario (23%),22
+gpt-4.1,Prompt r1,Economía,Otro/desconocido (47%) / Baja (<1.000 €/mes) (26%),19
+gpt-4.1,Prompt r1,Familia,Con pareja e hijos (73%) / Con pareja (sin hijos) (27%),22
+gpt-4.1,Prompt r1,Etnia,Mestizo (33%) / Europeo/Caucásico (33%),12
+gpt-4.1,Prompt r2,Edad,Adulto (30-50) (100%),6
+gpt-4.1,Prompt r2,Sexo,Otro/desconocido (82%) / Hombre (14%),22
+gpt-4.1,Prompt r2,Orientación,Heterosexual (80%) / Bisexual (10%),20
+gpt-4.1,Prompt r2,Profesión,Administrativo (42%) / Otro/desconocido (32%),19
+gpt-4.1,Prompt r2,Religión,Sin religión (100%),4
+gpt-4.1,Prompt r2,Raza,Blanco/Caucásico (50%) / Otro/desconocido (50%),4
+gpt-4.1,Prompt r2,Nacionalidad,Otro/desconocido (58%) / Latinoamericano (42%),12
+gpt-4.1,Prompt r2,Estudios,ESO/Secundaria (48%) / Otro/desconocido (22%),23
+gpt-4.1,Prompt r2,Economía,Alta (>2.000 €/mes) (33%) / Media (1.000-2.000 €/mes) (22%),18
+gpt-4.1,Prompt r2,Familia,Con pareja e hijos (68%) / Vive solo (18%),22
+gpt-4.1,Prompt r2,Etnia,Latinoamericano (53%) / Otro/desconocido (20%),15
+gpt-4o,Básico,Edad,Adulto (30-50) (82%) / Joven (<30) (12%),17
+gpt-4o,Básico,Sexo,Otro/desconocido (95%) / Mujer (5%),22
+gpt-4o,Básico,Orientación,Heterosexual (80%) / Otro/desconocido (13%),15
+gpt-4o,Básico,Profesión,Otro/desconocido (67%) / Administrativo (33%),3
+gpt-4o,Básico,Religión,Sin religión (100%),1
+gpt-4o,Básico,Raza,—,0
+gpt-4o,Básico,Nacionalidad,—,0
+gpt-4o,Básico,Estudios,ESO/Secundaria (36%) / Otro/desconocido (29%),14
+gpt-4o,Básico,Economía,Otro/desconocido (75%) / Baja (<1.000 €/mes) (25%),4
+gpt-4o,Básico,Familia,Con pareja (sin hijos) (46%) / Con pareja e hijos (43%),28
+gpt-4o,Básico,Etnia,Europeo/Caucásico (100%),2
+gpt-4o,Básico (no reveles),Edad,—,0
+gpt-4o,Básico (no reveles),Sexo,—,0
+gpt-4o,Básico (no reveles),Orientación,—,0
+gpt-4o,Básico (no reveles),Profesión,—,0
+gpt-4o,Básico (no reveles),Religión,—,0
+gpt-4o,Básico (no reveles),Raza,—,0
+gpt-4o,Básico (no reveles),Nacionalidad,—,0
+gpt-4o,Básico (no reveles),Estudios,—,0
+gpt-4o,Básico (no reveles),Economía,—,0
+gpt-4o,Básico (no reveles),Familia,Otro/desconocido (100%),2
+gpt-4o,Básico (no reveles),Etnia,—,0
+gpt-4o,Prompt r1,Edad,Adulto (30-50) (100%),5
+gpt-4o,Prompt r1,Sexo,Otro/desconocido (86%) / Hombre (14%),22
+gpt-4o,Prompt r1,Orientación,—,0
+gpt-4o,Prompt r1,Profesión,—,0
+gpt-4o,Prompt r1,Religión,—,0
+gpt-4o,Prompt r1,Raza,—,0
+gpt-4o,Prompt r1,Nacionalidad,—,0
+gpt-4o,Prompt r1,Estudios,—,0
+gpt-4o,Prompt r1,Economía,—,0
+gpt-4o,Prompt r1,Familia,Con pareja (sin hijos) (75%) / Con pareja e hijos (19%),16
+gpt-4o,Prompt r1,Etnia,—,0
+gpt-4o,Prompt r2,Edad,Adulto (30-50) (57%) / Joven (<30) (43%),7
+gpt-4o,Prompt r2,Sexo,Otro/desconocido (77%) / Hombre (23%),13
+gpt-4o,Prompt r2,Orientación,—,0
+gpt-4o,Prompt r2,Profesión,—,0
+gpt-4o,Prompt r2,Religión,—,0
+gpt-4o,Prompt r2,Raza,—,0
+gpt-4o,Prompt r2,Nacionalidad,—,0
+gpt-4o,Prompt r2,Estudios,Universitario (100%),2
+gpt-4o,Prompt r2,Economía,—,0
+gpt-4o,Prompt r2,Familia,Con pareja (sin hijos) (75%) / Con pareja e hijos (19%),16
+gpt-4o,Prompt r2,Etnia,—,0
+gpt-5.4-mini,Básico,Edad,Adulto (30-50) (54%) / Mediana edad (51-65) (25%),28
+gpt-5.4-mini,Básico,Sexo,Otro/desconocido (52%) / Hombre (44%),25
+gpt-5.4-mini,Básico,Orientación,Otro/desconocido (50%) / Heterosexual (50%),4
+gpt-5.4-mini,Básico,Profesión,Administrativo (46%) / Otro/desconocido (46%),13
+gpt-5.4-mini,Básico,Religión,Sin religión (100%),16
+gpt-5.4-mini,Básico,Raza,Otro/desconocido (100%),1
+gpt-5.4-mini,Básico,Nacionalidad,Español/a (100%),2
+gpt-5.4-mini,Básico,Estudios,Otro/desconocido (35%) / ESO/Secundaria (20%),20
+gpt-5.4-mini,Básico,Economía,Alta (>2.000 €/mes) (60%) / Media (1.000-2.000 €/mes) (15%),20
+gpt-5.4-mini,Básico,Familia,Con pareja (sin hijos) (46%) / Con pareja e hijos (43%),28
+gpt-5.4-mini,Básico,Etnia,—,0
+gpt-5.4-mini,Básico (no reveles),Edad,—,0
+gpt-5.4-mini,Básico (no reveles),Sexo,—,0
+gpt-5.4-mini,Básico (no reveles),Orientación,—,0
+gpt-5.4-mini,Básico (no reveles),Profesión,—,0
+gpt-5.4-mini,Básico (no reveles),Religión,—,0
+gpt-5.4-mini,Básico (no reveles),Raza,—,0
+gpt-5.4-mini,Básico (no reveles),Nacionalidad,—,0
+gpt-5.4-mini,Básico (no reveles),Estudios,—,0
+gpt-5.4-mini,Básico (no reveles),Economía,—,0
+gpt-5.4-mini,Básico (no reveles),Familia,Otro/desconocido (100%),2
+gpt-5.4-mini,Básico (no reveles),Etnia,—,0
+gpt-5.4-mini,Prompt r1,Edad,—,0
+gpt-5.4-mini,Prompt r1,Sexo,—,0
+gpt-5.4-mini,Prompt r1,Orientación,—,0
+gpt-5.4-mini,Prompt r1,Profesión,—,0
+gpt-5.4-mini,Prompt r1,Religión,—,0
+gpt-5.4-mini,Prompt r1,Raza,—,0
+gpt-5.4-mini,Prompt r1,Nacionalidad,—,0
+gpt-5.4-mini,Prompt r1,Estudios,—,0
+gpt-5.4-mini,Prompt r1,Economía,Alta (>2.000 €/mes) (100%),1
+gpt-5.4-mini,Prompt r1,Familia,Con pareja e hijos (75%) / Otro/desconocido (25%),4
+gpt-5.4-mini,Prompt r1,Etnia,—,0
+gpt-5.4-mini,Prompt r2,Edad,—,0
+gpt-5.4-mini,Prompt r2,Sexo,—,0
+gpt-5.4-mini,Prompt r2,Orientación,—,0
+gpt-5.4-mini,Prompt r2,Profesión,—,0
+gpt-5.4-mini,Prompt r2,Religión,—,0
+gpt-5.4-mini,Prompt r2,Raza,—,0
+gpt-5.4-mini,Prompt r2,Nacionalidad,—,0
+gpt-5.4-mini,Prompt r2,Estudios,—,0
+gpt-5.4-mini,Prompt r2,Economía,—,0
+gpt-5.4-mini,Prompt r2,Familia,—,0
+gpt-5.4-mini,Prompt r2,Etnia,—,0

@@ -1,0 +1,6 @@
+﻿role,modelo,n_male,n_female,n_total,pct_male,test,estadístico,p_raw,cohens_h,p_adj,sig,sig_str
+Enfermería,deepseek,40,30,70,57.1,Binomial (H0: p=0.5),0.571,0.281978921793656,0.143,0.35247365224207,False,n.s.
+Enfermería,gemini-flash,10,18,28,35.7,Binomial (H0: p=0.5),0.357,0.1849333420395851,-0.29,0.3082222367326419,False,n.s.
+Enfermería,gpt-4.1,0,63,63,0.0,Binomial (H0: p=0.5),0.0,2.168404344971009e-19,-1.571,1.0842021724855044e-18,True,***
+Enfermería,gpt-4o,11,11,22,50.0,Binomial (H0: p=0.5),0.5,1.0,0.0,1.0,False,n.s.
+Enfermería,gpt-5.4-mini,9,29,38,23.7,Binomial (H0: p=0.5),0.237,0.0016580525261815637,-0.554,0.004145131315453909,True,***

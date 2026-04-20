@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "titulo": "Prurito nocturno con lesiones cutáneas sugestivas de escabiosis",
+    "archivo": "Caso_15_Escabiosis_caso_1.json",
+    "tipo": "simulacion_clinica"
+  },
+  "secciones": [
+    {
+      "id": "info_caso",
+      "titulo": "Información del Caso",
+      "tipo": "informativa",
+      "contenido": "Paciente:\nAntecedentes personales sin patologías relevantes conocidas. No medicación crónica activa. Sin alergias medicamentosas conocidas. Niega hábitos tóxicos.\n\nProcedimiento:\nValoración clínica en consulta por prurito intenso de predominio nocturno"
+    },
+    {
+      "id": "objetivos",
+      "titulo": "Objetivos de Aprendizaje",
+      "tipo": "informativa",
+      "contenido": "- Objetivo principal: Reconocer la presentación clínica típica de la escabiosis y establecer tratamiento adecuado\n- Detalle: Identificar lesiones características, indicar tratamiento con permetrina y aplicar medidas de control en convivientes"
+    },
+    {
+      "id": "guion",
+      "titulo": "Desarrollo del Caso",
+      "tipo": "interactiva",
+      "contenido": "Situación inicial:\nPaciente consulta por prurito intenso generalizado de varias semanas de evolución, con empeoramiento notable durante la noche. Refiere que el picor interfiere con el sueño. En la exploración física se observan pápulas eritematosas, excoriaciones y surcos lineales finos en espacios interdigitales de manos, muñecas, región periumbilical y genital. No presenta fiebre. Constantes vitales dentro de la normalidad.\n\nAcción inicial:\nRealizar diagnóstico clínico basado en la distribución de lesiones y el prurito nocturno. Considerar confirmación mediante raspado cutáneo si hay dudas diagnósticas.\n\nEvolución del caso:\nSe establece diagnóstico de escabiosis. Se indica tratamiento con permetrina tópica al 5%, aplicando desde cuello hasta pies durante 8-12 horas y repitiendo a los 7 días. Se instruye tratar simultáneamente a todos los convivientes, aunque estén asintomáticos. Se recomienda lavado de ropa y ropa de cama a alta temperatura o aislamiento en bolsa cerrada durante al menos 72 horas. El prurito puede persistir durante semanas tras el tratamiento (prurito postescabiótico), por lo que se pueden añadir antihistamínicos o corticoides tópicos si es necesario.\n\nRescate:\nSi no hay mejoría, verificar correcta aplicación del tratamiento y adherencia. Considerar reinfestación por convivientes no tratados o resistencia. Alternativa terapéutica: ivermectina oral en dosis ajustada, repetida a los 7-14 días.\n\nFin del escenario:\nResolución progresiva del prurito y desaparición de nuevas lesiones tras tratamiento adecuado y manejo de contactos",
+      "campos": [
+        {
+          "id": "diagnostico_inicial",
+          "tipo": "texto_libre",
+          "pregunta": "¿Cuál es tu impresión diagnóstica inicial?",
+          "obligatorio": true
+        },
+        {
+          "id": "examenes_solicitar",
+          "tipo": "multiple_seleccion",
+          "pregunta": "¿Qué exámenes solicitarías?",
+          "opciones": [
+            "Analítica completa",
+            "Electrocardiograma",
+            "Radiografía de tórax",
+            "Ecografía abdominal",
+            "TAC",
+            "Otros (especificar)"
+          ]
+        },
+        {
+          "id": "tratamiento_inicial",
+          "tipo": "texto_libre",
+          "pregunta": "¿Cuál sería tu plan de tratamiento inicial?",
+          "obligatorio": true
+        },
+        {
+          "id": "seguimiento",
+          "tipo": "texto_libre",
+          "pregunta": "¿Cómo planificarías el seguimiento del paciente?",
+          "obligatorio": false
+        }
+      ]
+    },
+    {
+      "id": "competencias",
+      "titulo": "Competencias a Evaluar",
+      "tipo": "evaluacion",
+      "contenido": "Objetivos de competencias:\n- Reconocimiento clínico de dermatosis pruriginosas\n- Aplicación de tratamiento específico y medidas de control epidemiológico\n\nHabilidades técnicas:\n- Identificación de lesiones cutáneas típicas (surcos acarinos, pápulas)\n- Indicación correcta de tratamiento tópico y sistémico\n\nHabilidades no técnicas:\n- Educación al paciente y entorno sobre medidas higiénicas\n- Comunicación clara sobre adherencia terapéutica\n\nPuntos para debriefing:\n- Importancia del prurito nocturno como dato clave\n- Necesidad de tratar a convivientes para evitar reinfestación\n- Manejo del prurito persistente post-tratamiento"
+    }
+  ]
+}

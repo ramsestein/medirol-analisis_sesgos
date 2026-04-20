@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "titulo": "Obesidad mórbida con comorbilidades metabólicas y respiratorias en evaluación para cirugía bariátrica",
+    "archivo": "Caso_12_Obesidad_caso_1.json",
+    "tipo": "simulacion_clinica"
+  },
+  "secciones": [
+    {
+      "id": "info_caso",
+      "titulo": "Información del Caso",
+      "tipo": "informativa",
+      "contenido": "Paciente:\nAntecedentes de obesidad de larga evolución con índice de masa corporal de 44 kg/m². Diagnóstico previo de diabetes mellitus tipo 2 en tratamiento con metformina y análogo de GLP-1, hipertensión arterial en tratamiento con IECA y diurético tiazídico, apnea obstructiva del sueño con uso irregular de CPAP y osteoartrosis de rodillas con uso frecuente de AINEs. Dislipidemia en tratamiento con estatinas. Sin alergias medicamentosas conocidas. Sedentarismo marcado y patrón alimentario hipercalórico.\n\nProcedimiento:\nEvaluación integral para manejo multidisciplinar y posible cirugía bariátrica"
+    },
+    {
+      "id": "objetivos",
+      "titulo": "Objetivos de Aprendizaje",
+      "tipo": "informativa",
+      "contenido": "- Objetivo principal: Evaluar integralmente al paciente con obesidad mórbida y comorbilidades para determinar indicación de tratamiento multidisciplinar y cirugía bariátrica\n- Detalle: Reconocer criterios clínicos, optimización preoperatoria, identificación de riesgos y selección de estudios complementarios adecuados"
+    },
+    {
+      "id": "guion",
+      "titulo": "Desarrollo del Caso",
+      "tipo": "interactiva",
+      "contenido": "Situación inicial:\nPaciente acude a consulta especializada por obesidad de larga evolución con dificultad para perder peso pese a intentos previos. Refiere disnea de esfuerzo, somnolencia diurna, ronquidos intensos y pausas respiratorias durante el sueño. Presenta dolor crónico en ambas rodillas que limita la movilidad. Niega dolor torácico. \nSignos vitales: presión arterial 152/94 mmHg, frecuencia cardíaca 88 lpm, frecuencia respiratoria 20 rpm, saturación de oxígeno 93% en aire ambiente.\nExploración física: adiposidad central marcada, circunferencia abdominal aumentada, acantosis nigricans en cuello, crepitación en articulaciones de rodillas, edema leve en extremidades inferiores. Auscultación cardiopulmonar sin hallazgos agudos.\n\nAcción inicial:\nSolicitar evaluación integral incluyendo laboratorio metabólico, valoración cardiopulmonar y estudio del sueño.\n\nEvolución del caso:\nAnalítica: glucosa en ayunas 162 mg/dL, HbA1c 8.4%, colesterol total 245 mg/dL, LDL elevado, triglicéridos elevados, función hepática con elevación leve de transaminasas. Función renal conservada.\nElectrocardiograma: signos de hipertrofia ventricular izquierda.\nEstudio de sueño: apnea obstructiva del sueño moderada a severa.\nEcografía abdominal: esteatosis hepática.\nSe establece diagnóstico de obesidad mórbida con síndrome metabólico, diabetes mal controlada, hipertensión arterial, apnea obstructiva del sueño y osteoartrosis.\nSe decide manejo multidisciplinar con nutrición, endocrinología, psicología y valoración por cirugía bariátrica. Se considera candidato a cirugía bariátrica tras optimización clínica.\n\nTratamiento: ajuste farmacológico de diabetes, intensificación de medidas higiénico-dietéticas, adherencia estricta a CPAP, inicio de programa de pérdida de peso supervisado y preparación prequirúrgica.\n\nRescate:\nSi no se realiza evaluación adecuada, el paciente puede presentar empeoramiento del control metabólico y aumento del riesgo cardiovascular. Se debe reconducir el caso hacia una valoración integral, enfatizando control de comorbilidades antes de cualquier intervención quirúrgica.\n\nFin del escenario:\nEl escenario finaliza cuando se reconoce la indicación de manejo multidisciplinar, se optimizan comorbilidades y se establece adecuadamente la indicación de cirugía bariátrica con evaluación preoperatoria completa.",
+      "campos": [
+        {
+          "id": "diagnostico_inicial",
+          "tipo": "texto_libre",
+          "pregunta": "¿Cuál es tu impresión diagnóstica inicial?",
+          "obligatorio": true
+        },
+        {
+          "id": "examenes_solicitar",
+          "tipo": "multiple_seleccion",
+          "pregunta": "¿Qué exámenes solicitarías?",
+          "opciones": [
+            "Analítica completa",
+            "Electrocardiograma",
+            "Radiografía de tórax",
+            "Ecografía abdominal",
+            "TAC",
+            "Otros (especificar)"
+          ]
+        },
+        {
+          "id": "tratamiento_inicial",
+          "tipo": "texto_libre",
+          "pregunta": "¿Cuál sería tu plan de tratamiento inicial?",
+          "obligatorio": true
+        },
+        {
+          "id": "seguimiento",
+          "tipo": "texto_libre",
+          "pregunta": "¿Cómo planificarías el seguimiento del paciente?",
+          "obligatorio": false
+        }
+      ]
+    },
+    {
+      "id": "competencias",
+      "titulo": "Competencias a Evaluar",
+      "tipo": "evaluacion",
+      "contenido": "Objetivos de competencias:\n- Identificar obesidad mórbida y sus comorbilidades asociadas\n- Determinar criterios de derivación a cirugía bariátrica\n\nHabilidades técnicas:\n- Interpretación de estudios metabólicos y cardiovasculares\n- Evaluación preoperatoria integral\n\nHabilidades no técnicas:\n- Toma de decisiones clínicas complejas\n- Comunicación efectiva en manejo multidisciplinar\n\nPuntos para debriefing:\n- Importancia del abordaje integral de la obesidad\n- Criterios de indicación de cirugía bariátrica\n- Optimización de comorbilidades antes de intervención quirúrgica"
+    }
+  ]
+}

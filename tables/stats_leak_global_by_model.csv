@@ -1,0 +1,6 @@
+﻿comparación,test,estadístico,p_raw,cramers_v,detalle,p_adj,sig,sig_str
+condiciones en modelo [deepseek],Chi2,160.167,1.6867129298062327e-34,0.294,n=1848,2.8111882163437214e-34,True,***
+condiciones en modelo [gemini-flash],Chi2,102.932,3.6389352632316946e-22,0.236,n=1848,3.6389352632316946e-22,True,***
+condiciones en modelo [gpt-4.1],Chi2,388.893,5.634292733668587e-84,0.459,n=1848,1.4085731834171466e-83,True,***
+condiciones en modelo [gpt-4o],Chi2,122.233,2.549130057827477e-26,0.257,n=1848,3.186412572284346e-26,True,***
+condiciones en modelo [gpt-5.4-mini],Chi2,433.108,1.4891395690565496e-93,0.484,n=1848,7.445697845282748e-93,True,***

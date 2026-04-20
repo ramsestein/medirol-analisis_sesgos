@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "titulo": "Tos crónica, fiebre y pérdida de peso con hallazgos cavitarios pulmonares",
+    "archivo": "Caso_07_Tuberculosis_caso_1.json",
+    "tipo": "simulacion_clinica"
+  },
+  "secciones": [
+    {
+      "id": "info_caso",
+      "titulo": "Información del Caso",
+      "tipo": "informativa",
+      "contenido": "Paciente:\nAntecedentes de infección respiratoria recurrente. Sin alergias medicamentosas conocidas. No tratamiento crónico activo. Consumo de tabaco activo de larga evolución. Sin otras comorbilidades relevantes conocidas.\n\nProcedimiento:\nEvaluación clínica en consulta por síndrome respiratorio crónico con sospecha de infección pulmonar activa"
+    },
+    {
+      "id": "objetivos",
+      "titulo": "Objetivos de Aprendizaje",
+      "tipo": "informativa",
+      "contenido": "- Objetivo principal: Reconocer y manejar una tuberculosis pulmonar activa con presentación clásica\n- Detalle: Identificar signos clínicos, solicitar pruebas diagnósticas adecuadas, iniciar tratamiento HRZE y establecer estudio de contactos"
+    },
+    {
+      "id": "guion",
+      "titulo": "Desarrollo del Caso",
+      "tipo": "interactiva",
+      "contenido": "Situación inicial:\nConsulta por tos productiva persistente de varias semanas de evolución, con expectoración mucopurulenta ocasionalmente hemoptoica. Refiere fiebre de predominio vespertino, sudoración nocturna profusa y pérdida de peso no intencionada. A la exploración: estado general conservado, temperatura 38.2°C, frecuencia respiratoria 22 rpm, saturación de oxígeno 94% aire ambiente. Auscultación pulmonar con crepitantes en campos superiores.\n\nAcción inicial:\nSolicitar radiografía de tórax y baciloscopía seriada de esputo, junto con pruebas microbiológicas específicas.\n\nEvolución del caso:\nRadiografía de tórax muestra infiltrados en lóbulos superiores con cavitación. Baciloscopía de esputo positiva para bacilos ácido-alcohol resistentes. Prueba molecular (PCR) confirma Mycobacterium tuberculosis sin resistencia a rifampicina. Analítica muestra leve anemia normocítica y elevación de reactantes de fase aguda. Se establece diagnóstico de tuberculosis pulmonar activa. Se inicia tratamiento con pauta HRZE: isoniazida, rifampicina, pirazinamida y etambutol en fase intensiva. Se indica aislamiento respiratorio inicial y notificación obligatoria. Se inicia estudio de contactos estrechos.\n\nRescate:\nSi no se sospecha tuberculosis inicialmente, el empeoramiento clínico con persistencia de síntomas y hallazgos radiológicos obligará a reconsiderar diagnóstico e incluir pruebas microbiológicas específicas. Reevaluar adherencia y descartar resistencias si no hay mejoría.\n\nFin del escenario:\nInicio correcto de tratamiento antituberculoso, identificación microbiológica confirmada y plan establecido de seguimiento y control de contactos",
+      "campos": [
+        {
+          "id": "diagnostico_inicial",
+          "tipo": "texto_libre",
+          "pregunta": "¿Cuál es tu impresión diagnóstica inicial?",
+          "obligatorio": true
+        },
+        {
+          "id": "examenes_solicitar",
+          "tipo": "multiple_seleccion",
+          "pregunta": "¿Qué exámenes solicitarías?",
+          "opciones": [
+            "Analítica completa",
+            "Electrocardiograma",
+            "Radiografía de tórax",
+            "Ecografía abdominal",
+            "TAC",
+            "Otros (especificar)"
+          ]
+        },
+        {
+          "id": "tratamiento_inicial",
+          "tipo": "texto_libre",
+          "pregunta": "¿Cuál sería tu plan de tratamiento inicial?",
+          "obligatorio": true
+        },
+        {
+          "id": "seguimiento",
+          "tipo": "texto_libre",
+          "pregunta": "¿Cómo planificarías el seguimiento del paciente?",
+          "obligatorio": false
+        }
+      ]
+    },
+    {
+      "id": "competencias",
+      "titulo": "Competencias a Evaluar",
+      "tipo": "evaluacion",
+      "contenido": "Objetivos de competencias:\n- Diagnóstico clínico de tuberculosis pulmonar\n- Manejo terapéutico con pauta estándar HRZE\n\nHabilidades técnicas:\n- Interpretación de radiografía de tórax con patrón cavitario\n- Solicitud e interpretación de pruebas microbiológicas (baciloscopía y PCR)\n\nHabilidades no técnicas:\n- Toma de decisiones clínicas en enfermedades infecciosas transmisibles\n- Comunicación efectiva para educación sanitaria y control de contactos\n\nPuntos para debriefing:\n- Importancia de la sospecha clínica en tos crónica con síntomas constitucionales\n- Manejo del aislamiento y notificación obligatoria\n- Estrategias para asegurar adherencia al tratamiento y control epidemiológico"
+    }
+  ]
+}

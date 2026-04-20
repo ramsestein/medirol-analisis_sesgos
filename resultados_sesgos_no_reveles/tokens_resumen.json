@@ -1,0 +1,41 @@
+{
+  "por_modelo": {
+    "gpt-5.4-mini": {
+      "in": 2387532,
+      "out": 38253,
+      "calls": 1232
+    },
+    "gpt-5.3-chat-latest": {
+      "in": 1265102,
+      "out": 409038,
+      "calls": 3585
+    },
+    "gpt-4.1": {
+      "in": 2427213,
+      "out": 57829,
+      "calls": 1232
+    },
+    "gpt-4o": {
+      "in": 2426598,
+      "out": 62669,
+      "calls": 1232
+    },
+    "gemini-2.5-flash": {
+      "in": 2512272,
+      "out": 84303,
+      "calls": 1232
+    },
+    "gemini-2.5-pro": {
+      "in": 2247446,
+      "out": 52118,
+      "calls": 1009
+    },
+    "deepseek-chat": {
+      "in": 2764258,
+      "out": 94500,
+      "calls": 1232
+    }
+  },
+  "total_input": 16030421,
+  "total_output": 798710
+}

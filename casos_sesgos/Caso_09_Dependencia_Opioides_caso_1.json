@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "titulo": "Síndrome de abstinencia por opioides con infección asociada a uso intravenoso",
+    "archivo": "Caso_09_Dependencia_Opioides_caso_1.json",
+    "tipo": "simulacion_clinica"
+  },
+  "secciones": [
+    {
+      "id": "info_caso",
+      "titulo": "Información del Caso",
+      "tipo": "informativa",
+      "contenido": "Paciente:\nAntecedente de trastorno por consumo de opioides con uso intravenoso de heroína de larga evolución. Episodios previos de abstinencia. Sin tratamiento de mantenimiento activo. Sin alergias conocidas. No medicación crónica. Historia de inyecciones frecuentes en extremidades superiores.\n\nProcedimiento:\nEvaluación en servicio de urgencias por síndrome de abstinencia y sospecha de infección asociada"
+    },
+    {
+      "id": "objetivos",
+      "titulo": "Objetivos de Aprendizaje",
+      "tipo": "informativa",
+      "contenido": "- Objetivo principal: Reconocer y manejar el síndrome de abstinencia por opioides e iniciar tratamiento adecuado\n- Detalle: Identificar signos de abstinencia, iniciar buprenorfina/naloxona o metadona de forma segura y evaluar complicaciones infecciosas asociadas al uso intravenoso"
+    },
+    {
+      "id": "guion",
+      "titulo": "Desarrollo del Caso",
+      "tipo": "interactiva",
+      "contenido": "Situación inicial:\nPaciente acude por inquietud intensa, dolor generalizado, náuseas, vómitos, diarrea y diaforesis. Refiere último consumo de heroína hace aproximadamente 24 horas. Signos vitales: presión arterial 150/90 mmHg, frecuencia cardíaca 110 lpm, frecuencia respiratoria 20 rpm, temperatura 38.2 °C, saturación de oxígeno 98%. Exploración: midriasis, piloerección, diaforesis, temblor, bostezos frecuentes. Se observan múltiples marcas de punción en extremidades superiores, una zona eritematosa dolorosa con fluctuación en antebrazo.\n\nAcción inicial:\nEvaluación clínica del síndrome de abstinencia (escala COWS), control sintomático e inicio de tratamiento con buprenorfina/naloxona si criterios adecuados.\n\nEvolución del caso:\nAnalítica muestra leucocitosis con desviación izquierda, proteína C reactiva elevada. Hemocultivos positivos para Staphylococcus aureus. Ecocardiograma evidencia vegetación en válvula tricúspide compatible con endocarditis infecciosa. Se inicia tratamiento antibiótico intravenoso dirigido y programa de mantenimiento con buprenorfina/naloxona. Mejora progresiva de síntomas de abstinencia y control de infección tras varios días de tratamiento.\n\nRescate:\nSi no se inicia tratamiento adecuado, el paciente puede evolucionar con empeoramiento de la infección, bacteriemia persistente y complicaciones sistémicas. Se debe considerar ingreso hospitalario, manejo intensivo y reevaluación del tratamiento de abstinencia.\n\nFin del escenario:\nEstabilización clínica, control de síntomas de abstinencia, inicio de terapia de mantenimiento y plan de seguimiento para infección y trastorno por consumo de opioides",
+      "campos": [
+        {
+          "id": "diagnostico_inicial",
+          "tipo": "texto_libre",
+          "pregunta": "¿Cuál es tu impresión diagnóstica inicial?",
+          "obligatorio": true
+        },
+        {
+          "id": "examenes_solicitar",
+          "tipo": "multiple_seleccion",
+          "pregunta": "¿Qué exámenes solicitarías?",
+          "opciones": [
+            "Analítica completa",
+            "Electrocardiograma",
+            "Radiografía de tórax",
+            "Ecografía abdominal",
+            "TAC",
+            "Otros (especificar)"
+          ]
+        },
+        {
+          "id": "tratamiento_inicial",
+          "tipo": "texto_libre",
+          "pregunta": "¿Cuál sería tu plan de tratamiento inicial?",
+          "obligatorio": true
+        },
+        {
+          "id": "seguimiento",
+          "tipo": "texto_libre",
+          "pregunta": "¿Cómo planificarías el seguimiento del paciente?",
+          "obligatorio": false
+        }
+      ]
+    },
+    {
+      "id": "competencias",
+      "titulo": "Competencias a Evaluar",
+      "tipo": "evaluacion",
+      "contenido": "Objetivos de competencias:\n- Diagnóstico del síndrome de abstinencia por opioides\n- Identificación de complicaciones infecciosas asociadas al uso intravenoso\n\nHabilidades técnicas:\n- Uso de escalas clínicas como COWS\n- Inicio seguro de tratamiento con buprenorfina/naloxona o metadona\n\nHabilidades no técnicas:\n- Toma de decisiones clínicas en contexto de urgencias\n- Comunicación efectiva y enfoque no estigmatizante\n\nPuntos para debriefing:\n- Importancia del tratamiento temprano de la abstinencia\n- Reconocimiento de signos de infección grave\n- Integración del manejo de adicción y complicaciones médicas"
+    }
+  ]
+}

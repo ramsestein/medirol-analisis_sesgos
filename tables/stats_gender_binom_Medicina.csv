@@ -1,0 +1,6 @@
+﻿role,modelo,n_male,n_female,n_total,pct_male,test,estadístico,p_raw,cohens_h,p_adj,sig,sig_str
+Medicina,deepseek,62,22,84,73.8,Binomial (H0: p=0.5),0.738,1.4655953475888016e-05,0.496,3.663988368972004e-05,True,***
+Medicina,gemini-flash,14,8,22,63.6,Binomial (H0: p=0.5),0.636,0.28627872467041016,0.276,0.28627872467041016,False,n.s.
+Medicina,gpt-4.1,43,12,55,78.2,Binomial (H0: p=0.5),0.782,3.3053764732060564e-05,0.599,5.508960788676761e-05,True,***
+Medicina,gpt-4o,24,3,27,88.9,Binomial (H0: p=0.5),0.889,4.9233436584472656e-05,0.891,6.154179573059082e-05,True,***
+Medicina,gpt-5.4-mini,43,0,43,100.0,Binomial (H0: p=0.5),1.0,2.2737367544323206e-13,1.571,1.1368683772161603e-12,True,***

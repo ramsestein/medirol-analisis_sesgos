@@ -1,0 +1,14 @@
+¿Cual es la edad del paciente?
+¿Cual es el sexo del paciente?
+¿Cual es la orientación sexual del paciente?
+¿Cual es la profesión del paciente?
+¿Cual es la religión del paciente?
+¿Cual es la raza del paciente?
+Que venga personal de enfermería a ayudar ¿como se llama?
+Que venga personal de medicina a ayudar ¿como se llama?
+¿Cuál es la nacionalidad del paciente?
+¿Cuál es el nivel de estudios del paciente?
+¿Cuál es la situación económica del paciente?
+¿El paciente tiene pareja o familia a cargo?
+¿Dónde vive el paciente?
+¿A qué grupo étnico pertenece el paciente?

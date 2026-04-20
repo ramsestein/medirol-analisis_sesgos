@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "titulo": "Episodio depresivo mayor con síntomas neurovegetativos y anhedonia marcada",
+    "archivo": "Caso_05_Depresion_caso_1.json",
+    "tipo": "simulacion_clinica"
+  },
+  "secciones": [
+    {
+      "id": "info_caso",
+      "titulo": "Información del Caso",
+      "tipo": "informativa",
+      "contenido": "Paciente:\nAntecedentes de hipotiroidismo en tratamiento sustitutivo con levotiroxina. Sin otros antecedentes médicos relevantes. No alergias conocidas. Consumo ocasional de alcohol sin patrón de abuso. No consumo de otras sustancias.\n\nProcedimiento:\nEvaluación en consulta de atención primaria por síntomas afectivos persistentes"
+    },
+    {
+      "id": "objetivos",
+      "titulo": "Objetivos de Aprendizaje",
+      "tipo": "informativa",
+      "contenido": "- Objetivo principal: Reconocer y manejar un episodio depresivo mayor típico\n- Detalle: Identificar síntomas cardinales, realizar diagnóstico diferencial, iniciar tratamiento farmacológico y psicoterapéutico adecuado, y planificar seguimiento clínico"
+    },
+    {
+      "id": "guion",
+      "titulo": "Desarrollo del Caso",
+      "tipo": "interactiva",
+      "contenido": "Situación inicial:\nPaciente acude por ánimo deprimido persistente de varias semanas de evolución, con pérdida de interés por actividades previamente placenteras. Refiere fatiga constante, disminución de la concentración, sentimientos de inutilidad y culpa excesiva. Presenta alteraciones del sueño con insomnio de mantenimiento y despertar precoz, así como disminución significativa del apetito con pérdida de peso no intencionada. Niega ideación suicida activa en el momento actual, pero reconoce pensamientos pasivos de muerte en días recientes.\n\nSignos vitales: presión arterial 118/72 mmHg, frecuencia cardíaca 76 lpm, temperatura 36.5 °C, saturación de oxígeno 98%.\n\nExploración física: sin hallazgos patológicos relevantes.\n\nExploración mental: afecto deprimido, discurso lento, tono de voz bajo, pensamiento con contenido negativo recurrente, sin síntomas psicóticos.\n\nAcción inicial:\nRealizar evaluación clínica completa incluyendo cribado de depresión con escala validada (por ejemplo, PHQ-9) y descartar causas orgánicas mediante estudios básicos.\n\nEvolución del caso:\nAnalítica general (hemograma, perfil metabólico, función tiroidea) sin alteraciones significativas. Escala PHQ-9 compatible con depresión moderada a grave. Se establece diagnóstico de trastorno depresivo mayor, episodio actual sin características psicóticas.\n\nSe inicia tratamiento con inhibidor selectivo de la recaptación de serotonina (por ejemplo, sertralina) junto con intervención psicoterapéutica estructurada (terapia cognitivo-conductual). Se brinda educación sobre la enfermedad, tiempo de respuesta al tratamiento y posibles efectos secundarios. Se evalúa riesgo suicida de forma periódica.\n\nRescate:\nSi no hay mejoría tras 4-6 semanas, considerar ajuste de dosis, cambio de antidepresivo o combinación farmacológica. En caso de empeoramiento clínico o aparición de ideación suicida activa, valorar derivación urgente a salud mental o ingreso.\n\nFin del escenario:\nMejoría progresiva de los síntomas tras intervención adecuada, con reducción significativa en la escala de depresión y recuperación funcional parcial o completa",
+      "campos": [
+        {
+          "id": "diagnostico_inicial",
+          "tipo": "texto_libre",
+          "pregunta": "¿Cuál es tu impresión diagnóstica inicial?",
+          "obligatorio": true
+        },
+        {
+          "id": "examenes_solicitar",
+          "tipo": "multiple_seleccion",
+          "pregunta": "¿Qué exámenes solicitarías?",
+          "opciones": [
+            "Analítica completa",
+            "Electrocardiograma",
+            "Radiografía de tórax",
+            "Ecografía abdominal",
+            "TAC",
+            "Otros (especificar)"
+          ]
+        },
+        {
+          "id": "tratamiento_inicial",
+          "tipo": "texto_libre",
+          "pregunta": "¿Cuál sería tu plan de tratamiento inicial?",
+          "obligatorio": true
+        },
+        {
+          "id": "seguimiento",
+          "tipo": "texto_libre",
+          "pregunta": "¿Cómo planificarías el seguimiento del paciente?",
+          "obligatorio": false
+        }
+      ]
+    },
+    {
+      "id": "competencias",
+      "titulo": "Competencias a Evaluar",
+      "tipo": "evaluacion",
+      "contenido": "Objetivos de competencias:\n- Diagnosticar trastorno depresivo mayor según criterios clínicos\n- Implementar manejo integral basado en evidencia\n\nHabilidades técnicas:\n- Uso de escalas de evaluación de depresión\n- Selección adecuada de tratamiento farmacológico\n\nHabilidades no técnicas:\n- Comunicación empática\n- Evaluación del riesgo suicida\n\nPuntos para debriefing:\n- Importancia del diagnóstico diferencial en depresión\n- Manejo inicial y seguimiento del tratamiento antidepresivo\n- Detección y manejo del riesgo suicida"
+    }
+  ]
+}

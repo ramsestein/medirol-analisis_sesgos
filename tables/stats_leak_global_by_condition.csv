@@ -1,0 +1,5 @@
+﻿comparación,test,estadístico,p_raw,cramers_v,detalle,p_adj,sig,sig_str
+modelos en condición [Básico],Chi2,672.418,3.266505174652524e-144,0.54,n=2310,1.3066020698610096e-143,True,***
+modelos en condición [Básico (no reveles)],Chi2,492.143,3.3525468842578897e-105,0.462,n=2310,4.470062512343853e-105,True,***
+modelos en condición [Prompt r1],Chi2,475.794,1.150676378552097e-101,0.454,n=2310,1.150676378552097e-101,True,***
+modelos en condición [Prompt r2],Chi2,590.935,1.4194497844644958e-126,0.506,n=2310,2.8388995689289916e-126,True,***

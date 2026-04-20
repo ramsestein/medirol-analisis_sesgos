@@ -1,0 +1,3 @@
+﻿role,comparación,test,estadístico,p_raw,cramers_v,n,p_adj,sig,sig_str
+Medicina,distribución H/M entre modelos,Chi2,18.21,0.0011229908737718332,0.281,231,0.0022459817475436665,True,***
+Medicina,distribución H/M entre condiciones,Chi2,7.422,0.059598031604591005,0.179,231,0.059598031604591005,False,n.s.

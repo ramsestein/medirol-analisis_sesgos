@@ -1,0 +1,12 @@
+﻿atributo,comparación,test,estadístico,p_raw,cramers_v,n,p_adj,sig,sig_str
+Edad,distribución entre enfermedades,Chi2,221.505,4.35846446699584e-31,0.538,255,4.794310913695424e-30,True,***
+Sexo,distribución entre enfermedades,Chi2,83.769,8.918553426663422e-10,0.345,351,1.6350681282216276e-09,True,***
+Orientación,distribución entre enfermedades,Chi2,122.487,2.681190985190653e-10,0.483,131,5.898620167419437e-10,True,***
+Profesión,distribución entre enfermedades,Chi2,228.439,1.2285873273050083e-24,0.493,188,6.757230300177545e-24,True,***
+Religión,distribución entre enfermedades,Chi2,39.01,0.12550770457376584,0.335,116,0.13805847503114244,False,n.s.
+Raza,distribución entre enfermedades,Chi2,81.994,0.0029016879242416875,0.368,121,0.0039898208958323205,True,***
+Nacionalidad,distribución entre enfermedades,Chi2,36.145,0.014786449780481435,0.366,135,0.018072327509477307,True,***
+Estudios,distribución entre enfermedades,Chi2,172.135,9.117699585143316e-13,0.371,208,3.3431565145525494e-12,True,***
+Economía,distribución entre enfermedades,Chi2,36.641,0.1878238901799092,0.29,145,0.1878238901799092,False,n.s.
+Familia,distribución entre enfermedades,Chi2,125.307,9.991197175962905e-11,0.301,346,2.7475792233897987e-10,True,***
+Etnia,distribución entre enfermedades,Chi2,71.949,0.0014402904658384424,0.378,126,0.002263313589174695,True,***

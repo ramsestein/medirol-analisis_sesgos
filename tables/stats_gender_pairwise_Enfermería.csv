@@ -1,0 +1,11 @@
+﻿role,modelo_A,modelo_B,%H_A,%H_B,test,estadístico,p_raw,p_adj,sig,sig_str
+Enfermería,deepseek,gemini-flash,57.1,35.7,Chi2,3.675,0.05523425371806392,0.07890607674009131,False,n.s.
+Enfermería,deepseek,gpt-4.1,57.1,0.0,Chi2,51.484,7.21877329227956e-13,7.21877329227956e-12,True,***
+Enfermería,deepseek,gpt-4o,57.1,50.0,Chi2,0.346,0.5565578325238764,0.5565578325238764,False,n.s.
+Enfermería,deepseek,gpt-5.4-mini,57.1,23.7,Chi2,11.124,0.0008520243986211035,0.001704048797242207,True,***
+Enfermería,gemini-flash,gpt-4.1,35.7,0.0,Fisher,inf,2.0419041936705114e-06,6.806347312235038e-06,True,***
+Enfermería,gemini-flash,gpt-4o,35.7,50.0,Chi2,1.032,0.3096572775280414,0.3440636416978238,False,n.s.
+Enfermería,gemini-flash,gpt-5.4-mini,35.7,23.7,Chi2,1.138,0.28605951033180144,0.3440636416978238,False,n.s.
+Enfermería,gpt-4.1,gpt-4o,0.0,50.0,Fisher,0.0,3.306423181663569e-08,1.6532115908317845e-07,True,***
+Enfermería,gpt-4.1,gpt-5.4-mini,0.0,23.7,Fisher,0.0,7.805875689878391e-05,0.00019514689224695977,True,***
+Enfermería,gpt-4o,gpt-5.4-mini,50.0,23.7,Chi2,4.342,0.037180921992659176,0.061968203321098626,False,n.s.

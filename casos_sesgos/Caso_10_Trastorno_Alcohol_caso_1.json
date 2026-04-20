@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "titulo": "Síndrome de abstinencia alcohólica grave con delirium tremens y hepatopatía alcohólica",
+    "archivo": "Caso_10_Trastorno_Alcohol_caso_1.json",
+    "tipo": "simulacion_clinica"
+  },
+  "secciones": [
+    {
+      "id": "info_caso",
+      "titulo": "Información del Caso",
+      "tipo": "informativa",
+      "contenido": "Paciente:\nEl paciente con antecedente de consumo crónico y elevado de alcohol durante años, con múltiples intentos fallidos de abstinencia. Antecedentes de episodios previos de síndrome de abstinencia con temblor y ansiedad. Sin seguimiento médico regular. No medicación crónica activa conocida. Sin alergias medicamentosas registradas.\n\nProcedimiento:\nAtención en servicio de urgencias por cuadro de agitación y alteración del estado mental en contexto de abstinencia alcohólica."
+    },
+    {
+      "id": "objetivos",
+      "titulo": "Objetivos de Aprendizaje",
+      "tipo": "informativa",
+      "contenido": "- Objetivo principal: Reconocer y manejar el síndrome de abstinencia alcohólica grave con delirium tremens.\n- Detalle: Identificar signos clínicos, interpretar hallazgos analíticos, iniciar tratamiento farmacológico adecuado, prevenir complicaciones y abordar la hepatopatía alcohólica asociada."
+    },
+    {
+      "id": "guion",
+      "titulo": "Desarrollo del Caso",
+      "tipo": "interactiva",
+      "contenido": "Situación inicial:\nEl paciente es llevado a urgencias por cuadro de agitación psicomotriz, desorientación y alucinaciones visuales de inicio reciente. Refiere interrupción brusca del consumo de alcohol hace aproximadamente 48–72 horas. Presenta temblor generalizado, diaforesis profusa, taquicardia y ansiedad intensa.\n\nSignos vitales: presión arterial 165/95 mmHg, frecuencia cardíaca 120 lpm, frecuencia respiratoria 22 rpm, temperatura 38.2°C, saturación de oxígeno 96%.\n\nExploración física: desorientación temporoespacial, lenguaje incoherente, temblor distal marcado, hiperreflexia, diaforesis, signos de deshidratación. Abdomen con hepatomegalia dolorosa a la palpación. Ictericia leve. No focalidad neurológica.\n\nAcción inicial:\nEvaluación rápida del estado neurológico y hemodinámico, monitorización continua e inicio de tratamiento para síndrome de abstinencia alcohólica grave.\n\nEvolución del caso:\nAnalítica: elevación de AST y ALT con relación AST/ALT >2, GGT elevada, bilirrubina total elevada, INR prolongado, trombocitopenia leve, hipomagnesemia, hipokalemia. Etanol en sangre indetectable.\n\nElectrocardiograma: taquicardia sinusal.\n\nEcografía abdominal: hepatomegalia con esteatosis hepática.\n\nEl cuadro progresa a delirium tremens con agitación severa, fluctuaciones del nivel de conciencia y alucinaciones persistentes.\n\nDiagnóstico definitivo: trastorno por consumo de alcohol grave con síndrome de abstinencia complicado por delirium tremens y hepatopatía alcohólica.\n\nTratamiento:\n- Benzodiacepinas intravenosas a dosis altas ajustadas a escala clínica (ej. CIWA-Ar).\n- Tiamina intravenosa antes de glucosa.\n- Reposición de líquidos y corrección de electrolitos.\n- Monitorización en unidad de cuidados intensivos.\n- Consideración de antipsicóticos en caso de agitación refractaria.\n- Manejo de hepatopatía alcohólica y valoración por medicina interna/hepatología.\n\nRescate:\nSi el manejo inicial es insuficiente o el paciente presenta deterioro, se requiere sedación más profunda, posible uso de fenobarbital o propofol en entorno de cuidados intensivos, protección de la vía aérea y ventilación mecánica si es necesario.\n\nFin del escenario:\nEstabilización clínica con resolución de la agitación, normalización progresiva de constantes vitales, mejoría del estado mental y planificación de desintoxicación y tratamiento a largo plazo del trastorno por consumo de alcohol.",
+      "campos": [
+        {
+          "id": "diagnostico_inicial",
+          "tipo": "texto_libre",
+          "pregunta": "¿Cuál es tu impresión diagnóstica inicial?",
+          "obligatorio": true
+        },
+        {
+          "id": "examenes_solicitar",
+          "tipo": "multiple_seleccion",
+          "pregunta": "¿Qué exámenes solicitarías?",
+          "opciones": [
+            "Analítica completa",
+            "Electrocardiograma",
+            "Radiografía de tórax",
+            "Ecografía abdominal",
+            "TAC",
+            "Otros (especificar)"
+          ]
+        },
+        {
+          "id": "tratamiento_inicial",
+          "tipo": "texto_libre",
+          "pregunta": "¿Cuál sería tu plan de tratamiento inicial?",
+          "obligatorio": true
+        },
+        {
+          "id": "seguimiento",
+          "tipo": "texto_libre",
+          "pregunta": "¿Cómo planificarías el seguimiento del paciente?",
+          "obligatorio": false
+        }
+      ]
+    },
+    {
+      "id": "competencias",
+      "titulo": "Competencias a Evaluar",
+      "tipo": "evaluacion",
+      "contenido": "Objetivos de competencias:\n- Reconocimiento precoz del síndrome de abstinencia alcohólica grave.\n- Manejo integral del delirium tremens y complicaciones asociadas.\n\nHabilidades técnicas:\n- Uso adecuado de benzodiacepinas y escalas de severidad.\n- Corrección de alteraciones hidroelectrolíticas y soporte intensivo.\n\nHabilidades no técnicas:\n- Toma de decisiones en situaciones críticas.\n- Trabajo en equipo y comunicación efectiva en urgencias.\n\nPuntos para debriefing:\n- Importancia de la tiamina antes de la administración de glucosa.\n- Identificación de signos de progresión a delirium tremens.\n- Estrategias para prevención de recaídas y manejo a largo plazo."
+    }
+  ]
+}

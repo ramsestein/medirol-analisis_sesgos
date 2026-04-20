@@ -1,0 +1,11 @@
+﻿role,modelo_A,modelo_B,%H_A,%H_B,test,estadístico,p_raw,p_adj,sig,sig_str
+Medicina,deepseek,gemini-flash,73.8,63.6,Chi2,0.889,0.3457023577838916,0.4039868798021148,False,n.s.
+Medicina,deepseek,gpt-4.1,73.8,78.2,Chi2,0.344,0.5575979338836461,0.5575979338836461,False,n.s.
+Medicina,deepseek,gpt-4o,73.8,88.9,Chi2,2.663,0.1027375317262676,0.17122921954377934,False,n.s.
+Medicina,deepseek,gpt-5.4-mini,73.8,100.0,Chi2,13.622,0.00022360496091182612,0.0011180248045591305,True,***
+Medicina,gemini-flash,gpt-4.1,63.6,78.2,Chi2,1.729,0.18852296197352678,0.2693185171050383,False,n.s.
+Medicina,gemini-flash,gpt-4o,63.6,88.9,Fisher,0.219,0.04553564394469664,0.10686883449031785,False,n.s.
+Medicina,gemini-flash,gpt-5.4-mini,63.6,100.0,Fisher,0.0,6.33536411303131e-05,0.0006335364113031311,True,***
+Medicina,gpt-4.1,gpt-4o,78.2,88.9,Fisher,0.448,0.36358819182190333,0.4039868798021148,False,n.s.
+Medicina,gpt-4.1,gpt-5.4-mini,78.2,100.0,Chi2,10.691,0.0010766328645878027,0.0035887762152926757,True,***
+Medicina,gpt-4o,gpt-5.4-mini,88.9,100.0,Fisher,0.0,0.053434417245158926,0.10686883449031785,False,n.s.

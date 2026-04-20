@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "titulo": "Síndrome retroviral agudo y diagnóstico inicial de infección por VIH",
+    "archivo": "Caso_01_VIH_caso_1.json",
+    "tipo": "simulacion_clinica"
+  },
+  "secciones": [
+    {
+      "id": "info_caso",
+      "titulo": "Información del Caso",
+      "tipo": "informativa",
+      "contenido": "Paciente:\nAntecedente de infecciones de transmisión sexual previas. Sin enfermedades crónicas conocidas. No toma medicación habitual. Alergias no referidas. Refiere prácticas sexuales sin protección en las últimas semanas.\n\nProcedimiento:\nEvaluación clínica en consulta de atención urgente por síndrome febril"
+    },
+    {
+      "id": "objetivos",
+      "titulo": "Objetivos de Aprendizaje",
+      "tipo": "informativa",
+      "contenido": "- Objetivo principal: Reconocer y manejar la infección aguda por VIH\n- Detalle: Identificar el síndrome retroviral agudo, solicitar pruebas diagnósticas adecuadas e iniciar manejo y seguimiento con terapia antirretroviral"
+    },
+    {
+      "id": "guion",
+      "titulo": "Desarrollo del Caso",
+      "tipo": "interactiva",
+      "contenido": "Situación inicial:\nPaciente consulta por fiebre de 5 días de evolución, acompañada de odinofagia, malestar general, mialgias y aparición de exantema maculopapular en tronco y extremidades. Refiere adenopatías cervicales dolorosas. Constantes vitales: temperatura 38.5°C, frecuencia cardíaca 96 lpm, presión arterial 118/72 mmHg, saturación de oxígeno 98%. En la exploración se observa faringe eritematosa sin exudados, linfadenopatías generalizadas y exantema no pruriginoso.\n\nAcción inicial:\nSolicitar analítica completa incluyendo serología VIH de cuarta generación, carga viral, hemograma y perfil bioquímico.\n\nEvolución del caso:\nAnalítica muestra linfopenia leve y elevación discreta de transaminasas. Prueba de VIH de cuarta generación positiva. Carga viral elevada y recuento de CD4 disminuido. Se confirma diagnóstico de infección aguda por VIH. Se inicia terapia antirretroviral combinada (TAR) con inhibidor de la integrasa asociado a dos análogos de nucleósidos. Se realiza cribado de coinfecciones (hepatitis B, hepatitis C, sífilis, tuberculosis) y asesoramiento sobre transmisión.\n\nRescate:\nSi no se sospecha VIH inicialmente, el paciente puede ser tratado como infección viral inespecífica. Ante persistencia de síntomas o hallazgos sugestivos, reconsiderar diagnóstico y solicitar serología específica. Educación clínica y reevaluación son clave.\n\nFin del escenario:\nEl escenario finaliza cuando se establece el diagnóstico correcto, se inicia TAR y se planifica seguimiento especializado con control de carga viral y CD4.",
+      "campos": [
+        {
+          "id": "diagnostico_inicial",
+          "tipo": "texto_libre",
+          "pregunta": "¿Cuál es tu impresión diagnóstica inicial?",
+          "obligatorio": true
+        },
+        {
+          "id": "examenes_solicitar",
+          "tipo": "multiple_seleccion",
+          "pregunta": "¿Qué exámenes solicitarías?",
+          "opciones": [
+            "Analítica completa",
+            "Electrocardiograma",
+            "Radiografía de tórax",
+            "Ecografía abdominal",
+            "TAC",
+            "Otros (especificar)"
+          ]
+        },
+        {
+          "id": "tratamiento_inicial",
+          "tipo": "texto_libre",
+          "pregunta": "¿Cuál sería tu plan de tratamiento inicial?",
+          "obligatorio": true
+        },
+        {
+          "id": "seguimiento",
+          "tipo": "texto_libre",
+          "pregunta": "¿Cómo planificarías el seguimiento del paciente?",
+          "obligatorio": false
+        }
+      ]
+    },
+    {
+      "id": "competencias",
+      "titulo": "Competencias a Evaluar",
+      "tipo": "evaluacion",
+      "contenido": "Objetivos de competencias:\n- Reconocimiento del síndrome retroviral agudo\n- Manejo inicial de infección por VIH\n\nHabilidades técnicas:\n- Solicitud e interpretación de pruebas diagnósticas de VIH\n- Inicio de terapia antirretroviral\n\nHabilidades no técnicas:\n- Comunicación de diagnóstico sensible\n- Toma de decisiones clínicas bajo incertidumbre\n\nPuntos para debriefing:\n- Importancia del diagnóstico precoz\n- Indicaciones de inicio temprano de TAR\n- Prevención de transmisión y educación al paciente"
+    }
+  ]
+}

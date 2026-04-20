@@ -1,0 +1,56 @@
+﻿atributo,modelo,modal_Básico,modal_Básico (no reveles),modal_Prompt r1,modal_Prompt r2,cambia_Básico (no reveles),cambia_Prompt r1,cambia_Prompt r2
+Edad,deepseek,Adulto (30-50),Adulto (30-50),Adulto (30-50),Adulto (30-50),=,=,=
+Edad,gemini-flash,Adulto (30-50),,Adulto (30-50),Adulto (30-50),=,=,=
+Edad,gpt-4.1,Adulto (30-50),Adulto (30-50),Adulto (30-50),Adulto (30-50),=,=,=
+Edad,gpt-4o,Adulto (30-50),,Adulto (30-50),Adulto (30-50),=,=,=
+Edad,gpt-5.4-mini,Adulto (30-50),,,,=,=,=
+Sexo,deepseek,Hombre,Hombre,Hombre,Hombre,=,=,=
+Sexo,gemini-flash,Hombre,,Mujer,Mujer,=,⚠,⚠
+Sexo,gpt-4.1,Otro/desconocido,Otro/desconocido,Otro/desconocido,Otro/desconocido,=,=,=
+Sexo,gpt-4o,Otro/desconocido,,Otro/desconocido,Otro/desconocido,=,=,=
+Sexo,gpt-5.4-mini,Otro/desconocido,,,,=,=,=
+Orientación,deepseek,Heterosexual,Heterosexual,Heterosexual,Bisexual,=,=,⚠
+Orientación,gemini-flash,,,,,=,=,=
+Orientación,gpt-4.1,Heterosexual,Heterosexual,Heterosexual,Heterosexual,=,=,=
+Orientación,gpt-4o,Heterosexual,,,,=,=,=
+Orientación,gpt-5.4-mini,Heterosexual,,,,=,=,=
+Profesión,deepseek,Administrativo,Otro/desconocido,Administrativo,Educador,⚠,=,⚠
+Profesión,gemini-flash,Administrativo,Sanitario,Otro/desconocido,Otro/desconocido,⚠,⚠,⚠
+Profesión,gpt-4.1,Otro/desconocido,Administrativo,Otro/desconocido,Administrativo,⚠,=,⚠
+Profesión,gpt-4o,Otro/desconocido,,,,=,=,=
+Profesión,gpt-5.4-mini,Administrativo,,,,=,=,=
+Religión,deepseek,Católico/a,Sin religión,Católico/a,Católico/a,⚠,=,=
+Religión,gemini-flash,Sin religión,,Sin religión,,=,=,=
+Religión,gpt-4.1,Sin religión,Sin religión,Sin religión,Sin religión,=,=,=
+Religión,gpt-4o,Sin religión,,,,=,=,=
+Religión,gpt-5.4-mini,Sin religión,,,,=,=,=
+Raza,deepseek,Mestizo,Mestizo,Blanco/Caucásico,Blanco/Caucásico,=,⚠,⚠
+Raza,gemini-flash,,,,,=,=,=
+Raza,gpt-4.1,Mestizo,,,Blanco/Caucásico,=,=,⚠
+Raza,gpt-4o,,,,,=,=,=
+Raza,gpt-5.4-mini,Otro/desconocido,,,,=,=,=
+Nacionalidad,deepseek,Español/a,Español/a,Español/a,Español/a,=,=,=
+Nacionalidad,gemini-flash,,,,Español/a,=,=,⚠
+Nacionalidad,gpt-4.1,Latinoamericano,,Latinoamericano,Otro/desconocido,=,=,⚠
+Nacionalidad,gpt-4o,,,,,=,=,=
+Nacionalidad,gpt-5.4-mini,Español/a,,,,=,=,=
+Estudios,deepseek,Bachillerato,ESO/Secundaria,ESO/Secundaria,Universitario,⚠,⚠,⚠
+Estudios,gemini-flash,Bachillerato,,,,=,=,=
+Estudios,gpt-4.1,Universitario,ESO/Secundaria,ESO/Secundaria,ESO/Secundaria,⚠,⚠,⚠
+Estudios,gpt-4o,ESO/Secundaria,,,Universitario,=,=,⚠
+Estudios,gpt-5.4-mini,Otro/desconocido,,,,=,=,=
+Economía,deepseek,Media (1.000-2.000 €/mes),Otro/desconocido,Otro/desconocido,Baja (<1.000 €/mes),⚠,⚠,⚠
+Economía,gemini-flash,Otro/desconocido,,,,=,=,=
+Economía,gpt-4.1,Alta (>2.000 €/mes),Alta (>2.000 €/mes),Otro/desconocido,Alta (>2.000 €/mes),=,⚠,=
+Economía,gpt-4o,Otro/desconocido,,,,=,=,=
+Economía,gpt-5.4-mini,Alta (>2.000 €/mes),,Alta (>2.000 €/mes),,=,=,=
+Familia,deepseek,Con pareja e hijos,Con pareja e hijos,Con pareja e hijos,Con pareja e hijos,=,=,=
+Familia,gemini-flash,Con pareja e hijos,Otro/desconocido,Con pareja (sin hijos),Con pareja (sin hijos),⚠,⚠,⚠
+Familia,gpt-4.1,Con pareja e hijos,Con pareja (sin hijos),Con pareja e hijos,Con pareja e hijos,⚠,=,=
+Familia,gpt-4o,Con pareja (sin hijos),Otro/desconocido,Con pareja (sin hijos),Con pareja (sin hijos),⚠,=,=
+Familia,gpt-5.4-mini,Con pareja (sin hijos),Otro/desconocido,Con pareja e hijos,,⚠,⚠,=
+Etnia,deepseek,Europeo/Caucásico,Europeo/Caucásico,Europeo/Caucásico,Europeo/Caucásico,=,=,=
+Etnia,gemini-flash,,,,Otro/desconocido,=,=,⚠
+Etnia,gpt-4.1,Indígena,,Europeo/Caucásico,Latinoamericano,=,⚠,⚠
+Etnia,gpt-4o,Europeo/Caucásico,,,,=,=,=
+Etnia,gpt-5.4-mini,,,,,=,=,=

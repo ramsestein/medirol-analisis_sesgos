@@ -1,0 +1,12 @@
+﻿atributo,comparación,test,estadístico,p_raw,cramers_v,n,p_adj,sig,sig_str
+Edad,distribución entre condiciones,Chi2,15.8,0.07118581381612488,0.144,255,0.0978804939971717,False,n.s.
+Sexo,distribución entre condiciones,Chi2,21.893,0.00126606196783725,0.177,351,0.006963340823104874,True,***
+Orientación,distribución entre condiciones,Chi2,11.247,0.5078933940039698,0.169,131,0.5078933940039698,False,n.s.
+Profesión,distribución entre condiciones,Chi2,37.624,0.0010251011293432425,0.258,188,0.006963340823104874,True,***
+Religión,distribución entre condiciones,Chi2,9.609,0.3830689497601526,0.166,116,0.42137584473616785,False,n.s.
+Raza,distribución entre condiciones,Chi2,35.781,0.0019010143492837702,0.314,121,0.006970385947373824,True,***
+Nacionalidad,distribución entre condiciones,Chi2,17.435,0.007812122970453615,0.254,135,0.02148333816874744,True,***
+Estudios,distribución entre condiciones,Chi2,33.62,0.014028726647494308,0.232,208,0.03086319862448748,True,***
+Economía,distribución entre condiciones,Chi2,11.461,0.24541540877161383,0.162,145,0.2999521662764169,False,n.s.
+Familia,distribución entre condiciones,Chi2,24.3,0.018513808279797983,0.153,346,0.03394198184629631,True,***
+Etnia,distribución entre condiciones,Chi2,21.215,0.04731545242797309,0.237,126,0.07435285381538628,False,n.s.

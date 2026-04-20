@@ -1,0 +1,12 @@
+﻿atributo,comparación,test,estadístico,p_raw,cramers_v,n,p_adj,sig,sig_str
+Edad,distribución entre modelos,Chi2,38.284,0.00013797984345688112,0.224,255,0.0002833010635536021,True,***
+Sexo,distribución entre modelos,Chi2,142.258,8.043246949579885e-27,0.45,351,8.847571644537874e-26,True,***
+Orientación,distribución entre modelos,Chi2,21.168,0.04796765763214986,0.232,131,0.05276442339536484,False,n.s.
+Profesión,distribución entre modelos,Chi2,27.689,0.11697068988734514,0.192,188,0.11697068988734514,False,n.s.
+Religión,distribución entre modelos,Chi2,29.163,0.0037265975711253544,0.289,116,0.0058560818974827,True,***
+Raza,distribución entre modelos,Chi2,24.865,0.0056080011305200145,0.321,121,0.00771100155446502,True,***
+Nacionalidad,distribución entre modelos,Chi2,118.789,2.926935495726695e-23,0.663,135,1.6098145226496822e-22,True,***
+Estudios,distribución entre modelos,Chi2,57.25,0.00015452785284741932,0.262,208,0.0002833010635536021,True,***
+Economía,distribución entre modelos,Chi2,23.396,0.024545333213287602,0.232,145,0.02999985170512929,True,***
+Familia,distribución entre modelos,Chi2,59.513,6.320764481005593e-07,0.207,346,2.317613643035384e-06,True,***
+Etnia,distribución entre modelos,Chi2,39.946,7.340679036721895e-05,0.325,126,0.0002018686735098521,True,***
